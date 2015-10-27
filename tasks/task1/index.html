@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8">
+	<title>theFirma Worksop - Javascript - Task1</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+<body>
+<header class="header">
+	<h1 class="header-heading">Task 1 - Event listeners and classname modification </h1>
+	<div class="header-task">
+		<p class="header-content">1. Add a click event listener to the &lt;h2 class="content-heading"&gt; element</p>
+		<p>Inside the click event function:</p>
+		<ul class="header-task-list">
+			<li class="header-task-content">If it doesn't have a "blue" classname, add it</li>
+			<li class="header-task-content">If it has a "blue" classname, remove it</li>
+		</ul>
+	</div>
+	<div class="header-task">
+		<p class="header-content">2. Add an click event listener to all &lt;button class="btn"&gt; elements</p>
+		<ul class="header-task-list">
+			<li class="header-task-content">if it doesn't have classname "active"
+				<ul>
+					<li>Add classname "active"</li>
+					<li>Save it's text to a new "data-previous"-attribute</li>
+					<li>Change it's text to the text that is inside the "data-text" attribute</li>
+				</ul>
+			</li>
+			<li class="header-task-content">If it has a "active" classname
+				<ul>
+					<li>remove classname "active"</li>
+					<li>Change its text to what is inside the "data-previous" attribute</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<div class="content">
+	<div class="container">
+		<div class="task">
+			<h2 class="task-id">1.</h2>
+			<h2 class="content-heading c-p d-ib red t-all">Change my color</h2>
+		</div>
+		<div class="task task-buttons">
+			<h2 class="task-id">2.</h2>
+			<button data-text="We're" class="btn btn-large">Hello</button>
+		<button data-text="buttons" class="btn btn-large">There</button>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="task1.js"></script>
+</body>
+</html>

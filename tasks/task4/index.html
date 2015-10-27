@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8">
+	<title>Task 4 - theFirma Javascript Workshop</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+<body>
+<header class="header">
+	<h1 class="header-heading">Task 4 - Shopping list</h1>
+	<div class="header-task">
+		<p class="header-content">We need to update our shopping list. Use the 'shoppingList' object in task4.js to update the values!</p>
+		<ul class="header-task-list">
+			<li class="header-task-content">Look at the 'shoppingList' object in task4.js and loop through it
+				<ul>
+					<li>Assign each string type value to an element where the element's class name matches the key of the property</li>
+					<li>For the values array
+						<ul>
+							<li>Append all individual values in this array to the &lt;ul class="list-items"&gt; element as  &lt;li&gt; elements</li>
+							<li>Make sure that there are no items from the previous list</li>
+
+						</ul>
+					</li>
+					<li>Make sure that there are no <span class="red">red</span> elements</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<div class="content">
+	<div class="container">
+		<div class="shopping">
+			<h3 class="title">Modays shopping list</h3>
+			<div class="shopping-item">Date:
+				<span class="date">26.10.</span>
+			</div>
+			<div class="shopping-item">Creator:
+				<span class="creator">Skeletor</span>
+			</div>
+			<span class="shopping-label">Things to buy:</span>
+			<ul class="list-items">
+				<li>Milk</li>
+				<li>Bread</li>
+				<li>Eggs</li>
+				<li>Duck tape</li>
+			</ul>
+			<div class="shopping-item">
+				<span class="skeletorSucks red"></span>
+			</div>
+			<div class="shopping-item">
+				<span class="values red"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="task4.js"></script>
+</body>
+</html>

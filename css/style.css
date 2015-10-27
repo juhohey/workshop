@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif;
+	color: #444;
+	font-size: 1.2rem;
+	padding-bottom: 3rem;
+}
+.header{
+	padding: 2rem 3rem;
+	background-color: #2196F3;
+	color: white;
+}
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+h1{
+	margin: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.content{
+	padding: 1rem 3rem;
+}
+
+.header, .btn,.shopping{
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2),-1px -1px 1px rgba(0,0,0,0.1);
+}
+.btn{
+	border:0;
+	outline: 0;
+	padding: 6px 12px;
+	padding: 0.4rem 0.8rem;
+	background-color: transparent;
+	font-size: 19px;
+	font-size: 1.2rem;
+	color: #2196F3;
+	cursor: pointer;
+	-webkit-user-select:none;
+	   -moz-user-select:none;
+	    -ms-user-select:none;
+	        user-select:none;
+	
+	transition: all 0.1s ease-in-out;
+}
+.btn.active{
+	background-color: #2196F3;
+	color: white;
+}
+
+/**	Utility	**/
+.c-p{
+	cursor: pointer;
+	user-select:none;
+	-webkit-user-select:none;
+}
+.d-ib{
+	display: inline-block;
+}
+.t-all{
+	transition: all 0.3s ease-in-out;
+}
+.m-2{
+	margin: 2rem 0;
+}
+
+/* Task related */
+
+.red{
+	color: tomato;
+}
+.blue{
+	color: cornflowerblue;
+}
+
+
+.scroll-section{
+	min-height: 50vh;
+}
+.scroll-section:nth-child(odd){
+	background-color: #eee;
+}
+.section-heading{
+	padding: 25% 0;
+	text-align: center;
+	margin: 0;
+}
+.nav{
+	position: fixed;
+    top: 0;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.12), 1px 1px 1px rgba(0,0,0,0.06)
+}
+.nav-link{
+	text-decoration: none;
+	color:#444;
+}
+.nav-link:not(:last-child){
+	margin-right: 1.5rem;
+}
+.has-nav{
+	padding-top: 3rem;
+}
+.shopping{
+	display: inline-block;
+    background: #eee;
+    padding: 0 2rem 1rem;
+
+}

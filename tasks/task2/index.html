@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8">
+	<title>theFirma Worksop - Javascript - Task1</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+<body>
+<header class="header">
+	<h1 class="header-heading">Task 2 - Data attributes</h1>
+	<div class="header-task">
+		<p class="header-content">Our lazy front end developer didn't make our images load...<br>Make a script so the images load.</p>
+		<ul class="header-task-list">
+			<li class="header-task-content">For each image element 
+				<ul>
+					<li>Check if it has a "data-lazy" attribute</li>
+					<li>If if does, take the address from "data-source" data attribute and put in in the "src" attribute</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<div class="content">
+	<div class="container">
+		<div class="task">
+			<div class="img">
+				<img src="#" data-lazy="true" data-source="http://placehold.it/500x200">
+			</div>
+			<div class="img">
+				<img src="#" data-lazy="true" data-source="http://placehold.it/100x100">
+				<img src="#" data-lazy="true" data-source="http://placehold.it/100x100">
+				<img src="#" data-lazy="true" data-source="http://placehold.it/100x100">
+			</div>
+			<div class="img">
+				<img src="http://placehold.it/200x200" data-source="">
+				<img src="http://placehold.it/200x200">
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="task2.js"></script>
+</body>
+</html>

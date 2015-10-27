@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8">
+	<title>Task 3 - theFirma Javascript Workshop</title>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+<body>
+<header class="header has-nav">
+	<h1 class="header-heading">Task 3 - Smooth scroll</h1>
+	<div class="header-task">
+		<p class="header-content">Our navigation links are messed up! Use click events to make them scroll smoothly.</p>
+		<ul class="header-task-list">
+			<li class="header-task-content">Attach a click event listener for each  &lt;a class="nav-link"&gt; element inside the fixed navbar
+				<ul>
+					<li>Take the target to which we want to scroll to from the data-link data-attribute</li>
+					<li>Format this value so it can be used as a CSS selector</li>
+					<li>Tip: inspect the &lt;section&gt;-elements to figure out what kind of selector should be used</li>
+					<li>Pass this target value to the smoothScroll function in task3.js</li>
+					<li>Remeber to cancel the default event when the link is pressed!</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<div class="content-no-pad">
+	<div class="container">
+		<div class="task">
+			<nav class="nav">
+				<a class="nav-link" target="_blank" href="http://google.fi" data-link="about">About</a>
+				<a class="nav-link" target="_blank" href="http://google.fi" data-link="services">Services</a>
+				<a class="nav-link" target="_blank" href="http://google.fi" data-link="products">Products</a>
+				<a class="nav-link" target="_blank" href="http://google.fi" data-link="contact">Contact</a>
+			</nav>
+		</div>
+	</div>
+	<div class="container filler">
+		<section class="section scroll-section about">
+			<h1 class="section-heading">About</h1>
+		</section>
+		<section class="section scroll-section services">
+			<h1 class="section-heading">Services</h1>
+		</section>
+		<section class="section scroll-section products">
+			<h1 class="section-heading">Products</h1>
+		</section>
+		<section class="section scroll-section contact">
+			<h1 class="section-heading">Contact</h1>
+		</section>
+		<footer class="section scroll-section footer">
+			<h1 class="section-heading">Footer</h1>
+		</footer>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="task3.js"></script>
+</body>
+</html>
